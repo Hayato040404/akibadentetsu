@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>秋葉電鉄</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #f8c918;
+            color: #000;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .pic-up img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+        .notice {
+            background-color: #d9f7c4;
+            padding: 15px;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 800px;
+            font-size: 18px;
+            color: #444;
+        }
+        .card {
+            background-color: #ffe2e2;
+            margin: 10px auto;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 800px;
+            font-size: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #f8c918;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .route-map img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #f8c918;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 20px;
+            }
+            .section {
+                padding: 10px;
+            }
+            .section h2 {
+                font-size: 18px;
+            }
+            .notice, .card {
+                font-size: 14px;
+            }
+            .card a {
+                padding: 8px 12px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 18px;
+            }
+            .section h2 {
+                font-size: 16px;
+            }
+            .notice, .card {
+                font-size: 12px;
+            }
+            .card a {
+                padding: 6px 10px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>秋葉電鉄</h1>
+        <img src="train.jpg" alt="秋葉電鉄トップ画像">
+    </header>
+
+    <div class="section pic-up">
+        <h2>PIC UP!</h2>
+        <img src="train_station.jpg" alt="駅での写真">
+    </div>
+
+    <div class="notice">
+        <h3>お知らせ</h3>
+        <p>1/1, 2, 3は設備点検のため一部線路の運行を一時停止します。</p>
+    </div>
+
+    <div class="section">
+        <h2>おすすめ情報</h2>
+        <div class="card">
+            <p>秋葉電鉄に乗って、秋の風景を楽しもう！</p>
+            <a href="https://example.com">もっと見る</a>
+        </div>
+        <div class="card">
+            <p>特別記念乗車券が発売中！詳細は公式Webサイトへ。</p>
+            <a href="https://example.com">詳細はこちら</a>
+        </div>
+    </div>
+
+    <div class="section route-map">
+        <h2>運行状況</h2>
+        <img src="route_map.jpg" alt="路線図">
+    </div>
+
+    <div class="section">
+        <h2>最新情報</h2>
+        <div class="card">
+            <p>1/1 戸塚初日の出号が運行します！詳細はこちら。</p>
+            <a href="https://example.com">詳細を見る</a>
+        </div>
+        <div class="card">
+            <p>秋葉電鉄の軌跡を辿る特集ページ公開中！</p>
+            <a href="https://example.com">読む</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 秋葉電鉄 | お問い合わせはこちら</p>
+    </footer>
+</body>
+</html>
